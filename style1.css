@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.home{
+    background: url(8BWvUj.jpg) no-repeat ;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    height: 80px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+}
+.logo{
+    padding: 20px 100px;
+    height: auto;
+    width: 140px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    list-style: none;
+    margin:0 8px;
+    display: inline-block;
+    line-height: 80px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+    color: white;
+    font-family: 'Roboto',sans-serif;
+    
+}
+.navbar ul li a:active,
+.navbar ul li a:hover{
+    background: rgba(255, 0, 0, 0.925);
+    border-radius: 2px;
+    transition: .4s;
+}
+.home .content{
+    position:absolute;
+    top: 40%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    font-family: sans-serif;
+    width: 500px;
+}
+
+.content .buttons{
+    margin: 35px 280px;
+}
+.buttons button{
+    background: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: wheat;
+    border: 1px solid #cc0000;
+    cursor: pointer;
+    outline: none;
+}
+.buttons button:hover{
+    background: #cc0000;
+    transition: .4s;
+}
+.buttons .btn{
+    margin-left: 25px;
+}
+/*This is for Login.html*/
+.content .p1{
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 500px;
+    margin-top: 10px;
+    text-align: center;
+}
+.content .buttons1{
+    margin: 5px 180px;
+}
+.buttons1 button{
+    background: red;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    border-radius: 25px;
+    color: wheat;
+    border: 1px solid #cc0000;
+    cursor: pointer;
+    outline: none;
+}
+label,input {
+    margin: 5px 100px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.content form{
+    padding: 0px 40px;
+}
+label{
+    font-weight: bold  ;
+}
+input {
+    
+    
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    width: 70%;
+  }
+  input[type="text"],input[type="password"]{
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid white;
+      outline: none;
+      height: 40px;
+  }
+  ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: red;
+    opacity: 1; /* Firefox */
+  }
+  input[type="submit"]{
+      border: none;
+      outline: none;
+      height: 40px;
+      background: red;
+      color: white;
+      font-size: 18px;
+      border-radius: 20px;
+  }
+  input[type="submit"]:hover{
+      cursor: pointer;
+      background: #cc0000;
+      color: wheat;
+  }
+  .content a{
+      text-decoration: none;
+      font-size: 12px;
+      line-height: 20px;
+      color: tomato;
+      margin-left: 100px;
+  }
+  .content a:hover{
+      color: orange;
+  }
